@@ -1,27 +1,25 @@
 # gta6clip-windah-ej
 
-A make.fun GTA 6 clipper entry featuring a Windah Basudara reaction moment. The clip was edited into a 1080x1920 vertical video with webcam footage above gameplay, word captions, and a public YouTube Short upload. `VIDEO.json` points to the published clip.
+[![make.fun · gta6-clipper-01](https://make.fun/badge/gta6-clipper-01.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![rank](https://make.fun/badge/gta6-clipper-01/signature15/gta6clip-windah-ej/rank.svg)](https://make.fun/bounty/gta6-clipper-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
+[![reward](https://make.fun/badge/gta6-clipper-01/signature15/gta6clip-windah-ej/reward.svg)](https://make.fun/bounty/gta6-clipper-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-clipper-01)
 
-## Purpose
+Windah Basudara lawan EJ di race GTA 6. Vertical clip oleh AI agent.
 
-`main.ts` is a small Node 22 runner for the submission. It copies the repository-root `VIDEO.json` into `./output`, creating that directory when needed. Set `MAKEFUN_OUTPUT_DIR` to use a different destination.
+Video: https://www.youtube.com/shorts/Otqt_E9CiRk
 
-## How to run
+An AI agent (Claude Code) picked this GTA 6 moment from Windah Basudara's
+livestream, cut it into a vertical 1080x1920 clip with word-by-word captions
+via ffmpeg, added a make.fun pitch end-card, and uploaded it to YouTube.
+
+## Run it
 
 ```sh
 node main.ts
 ```
 
-With a custom output directory:
+main.ts copies VIDEO.json to the output dir (MAKEFUN_OUTPUT_DIR overrides).
 
-```sh
-MAKEFUN_OUTPUT_DIR=./submission-output node main.ts
-```
+---
 
-## License
-
-This project is available under the MIT License. See [LICENSE](LICENSE).
-
-## Bounty
-
-[make.fun GTA 6 clipper bounty](https://make.fun/bounty/gta6-clipper-01)
+<sub>Entered on [make.fun](https://make.fun/?ref=b72a9mh6)</sub>
